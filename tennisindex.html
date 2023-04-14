@@ -1,0 +1,80 @@
+<html>
+<head>
+ <title> Tennis Basics</title>
+ <link rel="stylesheet" href="tenniscss.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="tennismain.js"></script>
+</head>
+<body class="p-3 mb-2 bg-success text-black">
+<center>
+    <div  id="title">
+        <h1>Tennis Basics</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div> <h4> Want to learn to play tennis? Follow these videos!</h4>
+    </div>
+
+    <div>
+<h3>Forehand</h3>
+<hr>
+<iframe width="400" height="300" src="https://www.youtube.com/embed/5arVdubK9Pg" title="Perfect Forehand " frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+<hr>
+
+    <div>
+        <h3>Backhand</h3>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/4ldOe300rMk" title="Perfect Backhand" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+
+            <hr>
+
+            <div>
+                <h3>Volley</h3>
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/Q_M1OS43O80" title="Perfect Volley" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+
+                    
+<hr>
+                    <h3> Practice Your skills!</h3>
+             <button class="btn btn-info"> <a href="https://freetennis.org/" target="_blank">Tennis Game</a> </button>
+
+
+             <h3>Take the Test!</h3>
+             <h5 id="question_1">Do you Play Forehand with 1 hand, or 2 hands?</h5>
+             <span>
+                 <button onlick="q1_right()" class="btn btn-warning">1 hand</button>
+                 <button onlick="q1_wrong()" class="btn btn-warning">2 hands</button>
+             </span>
+
+
+
+             <h5 id="question_2">What is a 1-handed Backhand called?</h5>
+             <span>
+                 <button onlick="q2_right()" class="btn btn-primary">slice</button>
+                 <button onlick="q2_wrong()" class="btn btn-primary">chop</button>
+             </span>
+
+
+
+
+             <h5 id="question_3">True or False: Volleys are played from the back of the court.</h5>
+             <span>
+                 <button onlick="q3_wrong()" class="btn btn-secondary">True</button>
+                 <button onlick="q3_right()" class="btn btn-secondary">False</button>
+             </span>
+
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+
+
+
+             
+</center>
+
+</body>
+</html>
